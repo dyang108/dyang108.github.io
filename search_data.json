@@ -1,0 +1,23 @@
+---
+layout: null
+---
+
+{
+  {% for faq in site.faqs %}
+
+    "{{ faq.title }}": {
+      "title": "{{ faq.title | xml_escape | capitalize }}",
+      "url": "{{ site.baseurl }}{{ faq.url }}",
+      "content": {{ faq.content | jsonify | replace: '>', '> ' | replace: '<', ' <' }}
+    }
+   	,
+  {% endfor %}
+  {% for product in site.products %}
+		"{{ product.title }}": {
+      "title": "{{ product.title | xml_escape | capitalize}}",
+      "url": "{{ site.baseurl }}{{ product.url }}",
+      "content": {{ product.content | jsonify | replace: '>', '> ' | replace: '<', ' <' }}
+    }
+  	  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}

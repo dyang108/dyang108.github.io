@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Derick Yang</title>
+    <description></description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 23 Jan 2016 14:27:32 -0500</pubDate>
+    <lastBuildDate>Sat, 23 Jan 2016 14:27:32 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>testing for project</title>
+        <description>&lt;h2 id=&quot;hello-this-is-a-title-for-the-project&quot;&gt;hello this is a title for the project&lt;/h2&gt;
+&lt;p&gt;test stuff;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/projects/2016/01/test-project</link>
+        <guid isPermaLink="true">http://yourdomain.com/projects/2016/01/test-project</guid>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>first post</title>
+        <description>&lt;h2 id=&quot;hi&quot;&gt;hi&lt;/h2&gt;
+
+&lt;p&gt;this is a blog post. hopefully it wofdsajklrks out&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/blog/2016/01/post</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2016/01/post</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>first post</title>
+        <description>&lt;h2 id=&quot;stuff-goes-here&quot;&gt;stuff goes here&lt;/h2&gt;
+</description>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/articles/2016/01/article-test</link>
+        <guid isPermaLink="true">http://yourdomain.com/articles/2016/01/article-test</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>second post</title>
+        <description>&lt;h2 id=&quot;title-2&quot;&gt;title 2&lt;/h2&gt;
+
+&lt;p&gt;hello there&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/blog/2016/01/second_post</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2016/01/second_post</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>

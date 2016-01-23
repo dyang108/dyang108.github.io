@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="home" id="all-content">
+
+  <!-- <h1 class="page-heading">Welcome to My Homepage</h1> -->
+  <ul class="post-list">
+  <!-- products list -->
+    {% for product in site.products %}
+      <div class="product-wrapper" style="background-image: url({{ product.background }});">
+        <li>
+          <img class="faq-img" src="{{ site.baseurl }}/assets/img/{{ product.slug }}.png">
+          <div class="post-title">
+            <a id="{{ product.title }}" class="post-link" href="{{ product.url | prepend: site.baseurl }}">
+              <h4 style="color: #{{ product.color }};">{{ product.title }}</h4>
+              <h5 class="product-desc">{{ product.desc }}</h5>
+            </a>
+          </div>
+        </li>
+      </div>
+    {% endfor %}
+  </ul>
+
+</div>

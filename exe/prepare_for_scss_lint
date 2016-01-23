@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+system "rm -rf tmp"
+system "mkdir -p tmp/css"
+system "mkdir -p tmp/_sass"
+system "cp -r _sass tmp"
+system "cp -r assets/css tmp"
+
+Dir.glob("./tmp/**/*.scss").each do |path|
+  content = File.read(path)
+  pattern = /^---.+---/m
+  if match = content.match(pattern)
+    replacement = Array.new(match[0].split("\n").count - 1).map { "\n" }.join
+    content.gsub!(pattern, replacement)
+    File.open(path, "w") { |f| f.write content }
+  end
+end

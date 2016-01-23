@@ -1,0 +1,8 @@
+dependencies:
+  pre:
+    - npm install -g standard@5.4.1
+test:
+  override:
+    - bundle exec jekyll build  # assert that site can build
+    - exe/prepare_for_scss_lint && bundle exec scss-lint tmp 2>&1 # assert that scss is stylish
+    - standard assets/js/*.js # assert that the js is stylish

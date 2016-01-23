@@ -1,0 +1,46 @@
+{
+  
+  
+		"Blog": {
+      "title": "Blog",
+      "url": "/blog/",
+      "content": " <h3 id=\"check-here-for-the-latest-from-derick\">  <em> Check here for the latest from Derick </em>  </h3> \n\n <div id=\"/blog/2016/01/post\"> \n <span class=\"post-meta\"> Jan 20, 2016 </span> \n <h2 id=\"hi\"> hi </h2> \n\n <p> this is a blog post. hopefully it wofdsajklrks out </p> \n\n </div> \n\n <div id=\"/blog/2016/01/second_post\"> \n <span class=\"post-meta\"> Jan 19, 2016 </span> \n <h2 id=\"title-2\"> title 2 </h2> \n\n <p> hello there </p> \n\n </div> \n\n"
+    }
+  	  ,
+  
+		"Projects": {
+      "title": "Projects",
+      "url": "/projects/",
+      "content": "\n <div id=\"/projects/2016/01/test-project\"> \n <h2 id=\"hello-this-is-a-title-for-the-project\"> hello this is a title for the project </h2> \n <p> test stuff; </p> \n\n </div> \n"
+    }
+  	  ,
+  
+		"Articles": {
+      "title": "Articles",
+      "url": "/articles/",
+      "content": " <h3 id=\"this-is-a-description-for-echo\">  <em> this is a description for echo </em>  </h3> \n\n <div id=\"/articles/2016/01/article-test\"> \n <h2 id=\"stuff-goes-here\"> stuff goes here </h2> \n\n </div> \n"
+    }
+  	  ,
+  
+		"About": {
+      "title": "About",
+      "url": "/about/",
+      "content": " <h3 id=\"this-is-a-description-for-view\">  <em> this is a description for View </em>  </h3> \n"
+    }
+  	  ,
+  
+		"Links": {
+      "title": "Links",
+      "url": "/links/",
+      "content": " <h3 id=\"links-to-some-of-my-other-profiles\">  <em> Links to some of my other profiles: </em>  </h3> \n\n <p>  <a href=\"https://github.com/dyang108\"> Github </a> \n <a href=\"https://www.linkedin.com/in/derick-yang-a25502a8\"> LinkedIn </a>  </p> \n\n"
+    }
+  	  ,
+  
+		"Photos": {
+      "title": "Photos",
+      "url": "/photos/",
+      "content": " <h3 id=\"add-description-for-orchid-here\">  <em> add description for orchid here </em>  </h3> \n\n"
+    }
+  	  
+  
+}
