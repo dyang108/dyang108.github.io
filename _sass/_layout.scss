@@ -192,13 +192,13 @@
   margin-bottom: $spacing-unit / 2;
 }
 
-.post-title {
-  line-height: 1;
+// .post-title {
+//   line-height: 1;
 
-  @include media-query($on-laptop) {
-    font-size: 36px;
-  }
-}
+//   @include media-query($on-laptop) {
+//     font-size: 36px;
+//   }
+// }
 
 .post-content {
   margin-bottom: $spacing-unit;

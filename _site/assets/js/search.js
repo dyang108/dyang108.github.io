@@ -10,7 +10,7 @@ jQuery(function () {
   })
   // Download the data from the JSON file we generated
   window.data = $.getJSON('/search_data.json')
-
+  console.log('dasf')
   // Wait for the data to load and add it to lunr
   window.data.then(function (loaded_data) {
     $.each(loaded_data, function (index, value) {
@@ -21,6 +21,8 @@ jQuery(function () {
     var query = unescape(getQueryString('q', document.URL))
     query = query.replace(/\+/g, ' ')
     $('#search_box').val(query)
+
+    console.log(query)
     var results = window.idx.search(query)
     document.title = 'Search - ' + '\"' + query + '\"'
     display_search_results(results, query)

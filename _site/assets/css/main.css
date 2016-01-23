@@ -268,12 +268,6 @@ blockquote {
 .post-header {
   margin-bottom: 15px; }
 
-.post-title {
-  line-height: 1; }
-  @media screen and (max-width: 800px) {
-    .post-title {
-      font-size: 36px; } }
-
 .post-content {
   margin-bottom: 30px;
   padding: 30px; }
@@ -403,7 +397,6 @@ img {
     background-color: rgba(0, 0, 0, 0.9); }
 
 .product-desc {
-  font-size: normal;
   height: 3em; }
 
 .logo {

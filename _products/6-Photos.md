@@ -6,10 +6,20 @@ desc: Things I see
 background: /assets/img/maine-fall.JPG
 ---
 
-### *add description for orchid here*
+### *add description for photos here*
 
 {% for post in site.categories.photos %}
-<div id="{{ post.url }}">
-{{ post.content }}
+<div>
+<span class="post-meta">
+{{ post.date | date: "%b %-d, %Y" }}
+</span>
+<a class="post-link" href="{{ post.url }}">
+{{ post.title }}
+</a>
+<div class="content-preview-wrapper">
+<div class="content-preview">
+{{ post.content | markdownify }}
+</div>
+</div>
 </div>
 {% endfor %}
