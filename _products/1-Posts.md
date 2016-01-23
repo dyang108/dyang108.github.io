@@ -9,8 +9,17 @@ background: /assets/img/puerto-rico-sunset.JPG
 ### *Check here for the latest from Derick*
 
 {% for post in site.categories.blog %}
-<div id="{{ post.url }}">
-<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-{{ post.content | markdownify}}
+<div>
+<span class="post-meta">
+{{ post.date | date: "%b %-d, %Y" }}
+</span>
+<a class="post-link" href="{{ post.url }}">
+{{ post.title }}
+</a>
+<div class="content-preview-wrapper">
+<div class="content-preview">
+{{ post.content | markdownify }}
+</div>
+</div>
 </div>
 {% endfor %}

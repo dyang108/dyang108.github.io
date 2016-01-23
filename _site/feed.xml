@@ -5,9 +5,9 @@
     <description></description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 23 Jan 2016 14:27:32 -0500</pubDate>
-    <lastBuildDate>Sat, 23 Jan 2016 14:27:32 -0500</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Sat, 23 Jan 2016 16:06:12 -0500</pubDate>
+    <lastBuildDate>Sat, 23 Jan 2016 16:06:12 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>testing for project</title>
@@ -53,9 +53,31 @@
     
       <item>
         <title>second post</title>
-        <description>&lt;h2 id=&quot;title-2&quot;&gt;title 2&lt;/h2&gt;
+        <description>&lt;h6 id=&quot;this-is-header6&quot;&gt;this is header6&lt;/h6&gt;
+
+&lt;h5 id=&quot;this-is-header5&quot;&gt;this is header5&lt;/h5&gt;
+
+&lt;h4 id=&quot;this-is-header4&quot;&gt;this is header4&lt;/h4&gt;
+
+&lt;h3 id=&quot;this-is-header3&quot;&gt;this is header3&lt;/h3&gt;
+
+&lt;h2 id=&quot;title-is-header-2&quot;&gt;title is header 2&lt;/h2&gt;
+
+&lt;h1 id=&quot;this-is-header-1&quot;&gt;this is header 1&lt;/h1&gt;
 
 &lt;p&gt;hello there&lt;/p&gt;
+
+&lt;p&gt;search_box’).val(query)
+    var results = window.idx.search(query)
+    document.title = ‘Search - ‘ + ‘&quot;’ + query + ‘&quot;’
+    display_search_results(results, query)
+  })&lt;/p&gt;
+
+&lt;p&gt;window.data.fail(function () {
+    console.log(‘failed’)
+  })&lt;/p&gt;
+
+&lt;p&gt;// display_search_results renders&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Jan 2016 00:00:00 -0500</pubDate>
         <link>http://yourdomain.com/blog/2016/01/second_post</link>

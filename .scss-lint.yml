@@ -1,0 +1,13 @@
+# .scss-lint.yml
+---
+linters:
+  SelectorDepth:
+    enabled: false
+  NestingDepth:
+    enabled: false
+  VendorPrefix:
+    enabled: false
+  DuplicateProperty:
+    enabled: false
+  UrlFormat:
+    enabled: false

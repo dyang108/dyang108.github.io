@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>first post FAQ</title>
-  <meta name="description" content="stuff goes here">
-
+  <title>Search</title>
+  <meta name="description" content="">
+  <!--  -->
   <link rel='shortcut icon' href="/assets/img/favicon.ico" type='image/x-icon'>
 
-  <link rel="stylesheet" href="/assets/css/subpage.css">
-  <link rel="canonical" href="http://yourdomain.com/articles/2016/01/article-test">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/search">
   <link rel="alternate" type="application/rss+xml" title="Derick Yang" href="http://yourdomain.com/feed.xml">
   
   <script src="/assets/js/vendor/jquery.min.js" async></script>
@@ -48,20 +48,17 @@
  
 
     <div class="page-content">
-      <div class="wrapper">
-        <article id="all-content" class="post" itemprop="articleBody">
-          <header class="post-header">
-            <img class="faq-img" src="/assets/img/articles.png">
-            <h1 class="post-title" itemprop="name headline">first post
-              <div class="return">
-                <a href="/articles">&#60; Return to articles</a>
-              </div> 
-            </h1>
-          </header>
-          <h2 id="stuff-goes-here">stuff goes here</h2>
+        <ul id="search_results"></ul>
+<article id="all-content" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="post-content" itemprop="articleBody">
+	    
 
-        </article>
-      </div>
+	</div>
+
+	<script src="/assets/js/vendor/lunr.min.js"></script>
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+  	<script src="/assets/js/search.js"></script>
+</article>
     </div>
     <footer class="site-footer">
   <div class="container">
@@ -73,7 +70,7 @@
         <li>·</li>
         <li><a href="/links">Contact</a></li>
       </ul>
-    <h6 class="copyright">© Derick Yang 2016. All Rights Reserved.</h6>
+    <h5 class="copyright">© Derick Yang 2016. All Rights Reserved.</h5>
   </div>
 </footer>
 

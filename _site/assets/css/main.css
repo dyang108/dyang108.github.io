@@ -20,7 +20,7 @@ figure {
 body {
   background-color: #808080;
   color: #fff;
-  font: 300 16px/1.5 "Exo, Helvetica Neue, Verdana", sans-serif;
+  font: 300 16px/1.5 "Exo" sans-serif;
   -moz-font-feature-settings: 'kern' 1;
   -o-font-feature-settings: 'kern' 1;
   -webkit-font-feature-settings: 'kern' 1;
@@ -52,11 +52,6 @@ figure > img {
 
 figcaption {
   font-size: 14px; }
-
-ul,
-ol {
-  margin-left: 15px;
-  margin-right: 15px; }
 
 li > ul,
 li > ol {
@@ -267,19 +262,13 @@ blockquote {
     margin-bottom: 0; }
 
 .post-meta {
-  color: #e8e8e8;
-  font-size: 24px;
-  padding-left: 20px; }
-
-.post-link {
-  font-size: 32px;
-  font-weight: 200; }
+  color: #828282;
+  font-size: 16px; }
 
 .post-header {
   margin-bottom: 15px; }
 
 .post-title {
-  font-size: 36px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
     .post-title {
@@ -288,12 +277,6 @@ blockquote {
 .post-content {
   margin-bottom: 30px;
   padding: 30px; }
-  .post-content h2 {
-    font-size: 24px; }
-  .post-content h3 {
-    font-size: 18px; }
-  .post-content h4 {
-    font-size: 24px; }
 
 .wrapper {
   max-width: 100%; }
@@ -301,13 +284,9 @@ blockquote {
 .page-content {
   width: 100%; }
 
-.post-list {
+ul {
   list-style: none;
-  margin: 0 auto;
-  width: 100%; }
-  .post-list.product-wrapper > li {
-    margin: 15px;
-    width: 160px; }
+  margin: 0; }
 
 .page-heading {
   font-family: Exo, Helvetica Neue, Verdana;
@@ -315,7 +294,7 @@ blockquote {
   text-align: center; }
 
 .site-header {
-  background-color: #417DC1;
+  background-color: #417dc1;
   border-bottom: 0;
   border-top: 0;
   box-shadow: 0 2px 5px #000;
@@ -331,7 +310,6 @@ blockquote {
   border-color: #000;
   border-top: 11px;
   font-family: Exo, Helvetica Neue, Verdana;
-  font-size: 10;
   margin: 30px; }
 
 a {
@@ -340,15 +318,7 @@ a {
   a:visited {
     color: #fff; }
   a:hover {
-    color: #417DC1; }
-
-h5 {
-  font-size: 16px;
-  margin-bottom: 0; }
-
-h4 {
-  font-size: 36px;
-  margin-bottom: 15px; }
+    color: #417dc1; }
 
 img {
   max-width: 100%; }
@@ -360,23 +330,23 @@ img {
   margin-left: 6px;
   width: auto; }
   .footer-links > li > a {
-    color: #fff;
-    font-size: 15; }
+    color: #fff; }
     .footer-links > li > a:link {
       color: #fff;
       text-decoration: none; }
     .footer-links > li > a:hover {
-      color: #417DC1; }
+      color: #417dc1; }
 
 .beta-dark-background {
   background-image: url("/assets/img/beta-dark-background.jpg"); }
 
-.product-wrapper, .post-header {
-  padding: 30px;
-  padding-left: 20%;
+.product-wrapper,
+.post-header {
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  padding: 30px;
+  padding-left: 20%; }
 
 .faq-img {
   display: inline-block;
@@ -410,21 +380,6 @@ img {
 [type='submit']:focus {
   outline-style: none; }
 
-h2 {
-  background-color: rgba(0, 0, 0, 0.25);
-  height: auto;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 5px 100px 5px 20px;
-  text-align: left; }
-
-p {
-  background-color: rgba(0, 0, 0, 0.5);
-  display: block;
-  margin-bottom: 15px;
-  overflow: hidden;
-  padding: 20px 10%; }
-
 .copyright {
   background: none;
   display: inline;
@@ -438,30 +393,31 @@ p {
   padding: 20px 10%; }
 
 .post-title {
-  text-align: left;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
   border-radius: 5px;
-  width: 200px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding: 10px;
+  text-align: left;
+  width: 200px; }
   .post-title:hover {
     background-color: rgba(0, 0, 0, 0.9); }
 
 .product-desc {
+  font-size: normal;
   height: 3em; }
 
 .logo {
   background-image: url("/assets/img/derick-logo.png");
   background-repeat: no-repeat;
-  background-size: 64px;
+  background-size: 50px;
   height: 78px;
   margin-left: 10px;
   position: absolute;
-  top: -2px;
+  top: 5px;
   width: 640px; }
 
 .return {
-  color: #417DC1;
+  color: #417dc1;
   font-size: 16px;
   margin-top: 20px; }
 
@@ -486,12 +442,20 @@ p {
   height: 22px;
   width: 22px; }
 
-.answer-div {
+.content-preview {
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis; }
+
+.content-preview-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  margin-bottom: 15px;
+  max-height: 70px;
+  overflow: hidden;
+  padding: 3%; }
 
 .derick-logo {
   background-image: url("/assets/img/derick-logo.png");
@@ -504,6 +468,16 @@ p {
   width: 55px; }
   .derick-logo:hover {
     opacity: 1; }
+
+.post-link {
+  background-color: rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  padding: 10px; }
+
+.post-wrapper {
+  margin: 3%; }
 
 @media (max-width: 600px) {
   .product-wrapper {

@@ -9,7 +9,7 @@ jQuery(function () {
     this.field('content')
   })
   // Download the data from the JSON file we generated
-  window.data = $.getJSON('/faqs/search_data.json')
+  window.data = $.getJSON('/search_data.json')
 
   // Wait for the data to load and add it to lunr
   window.data.then(function (loaded_data) {

@@ -1,26 +1,16 @@
-<!DOCTYPE html>
-<html>
-
-  {% include headfaq.html %}
-
-  <body class="beta-dark-background text">
-    {% include header.html %}
-    <div class="page-content">
-      <div class="wrapper">
-        <article id="all-content" class="post" itemprop="articleBody">
-          <header class="post-header">
-            <img class="faq-img" src="{{ site.baseurl }}/assets/img/{{ page.category }}.png">
-            <h1 class="post-title" itemprop="name headline">{{ page.title }}
-              <div class="return">
-                <a href="{{ site.baseurl }}/{{ page.categories }}">&#60; Return to {{ page.category }}</a>
-              </div> 
-            </h1>
-          </header>
-          {{ content }}
-        </article>
-      </div>
-    </div>
-    {% include footer.html %}
-  </body>
-
-</html>
+---
+layout: default
+---
+<article id="all-content" class="post" itemprop="articleBody">
+  <header class="post-header">
+    <img class="faq-img" src="{{ site.baseurl }}/assets/img/{{ page.category }}.png">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}
+      <div class="return">
+        <a href="{{ site.baseurl }}/{{ page.categories }}">&#60; Return to {{ page.category }}</a>
+      </div> 
+    </h1>
+  </header>
+  <div class="post-wrapper">
+    {{ content }}
+  </div>
+</article>
