@@ -5,9 +5,26 @@
     <description></description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Jan 2016 13:48:16 -0500</pubDate>
-    <lastBuildDate>Sun, 24 Jan 2016 13:48:16 -0500</lastBuildDate>
+    <pubDate>Sun, 24 Jan 2016 17:30:27 -0500</pubDate>
+    <lastBuildDate>Sun, 24 Jan 2016 17:30:27 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;So I decided to start my own blog on my new webpage. I hope to add stuff regularly, and I hope that the other sections of the site will soon be populated with more and more content. I’ll try to keep it updated regularly, depending on how busy life is going. In the meantime, you can check out my other sites &lt;a href=&quot;/links&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For this site, I utilized Jekyll, a templating tool that helps to build websites.&lt;/p&gt;
+
+&lt;p&gt;I’m not quite sure what this site will turn into. I’m expecting to post about code, about travel, about stuff going on in the world, and on things that I find cool. We’ll see what happens. I’m pretty excited about the layout as of now.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/blog/2016/01/hello-world</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2016/01/hello-world</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>testing for project</title>
@@ -20,71 +37,6 @@
         
         
         <category>projects</category>
-        
-      </item>
-    
-      <item>
-        <title>first post</title>
-        <description>&lt;h2 id=&quot;hi&quot;&gt;hi&lt;/h2&gt;
-
-&lt;p&gt;this is a blog post. hopefully it wofdsajklrks out&lt;/p&gt;
-</description>
-        <pubDate>Wed, 20 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/blog/2016/01/post</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2016/01/post</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>first post</title>
-        <description>&lt;h2 id=&quot;stuff-goes-here&quot;&gt;stuff goes here&lt;/h2&gt;
-</description>
-        <pubDate>Wed, 20 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/articles/2016/01/article-test</link>
-        <guid isPermaLink="true">http://yourdomain.com/articles/2016/01/article-test</guid>
-        
-        
-        <category>articles</category>
-        
-      </item>
-    
-      <item>
-        <title>second post</title>
-        <description>&lt;h6 id=&quot;this-is-header6&quot;&gt;this is header6&lt;/h6&gt;
-
-&lt;h5 id=&quot;this-is-header5&quot;&gt;this is header5&lt;/h5&gt;
-
-&lt;h4 id=&quot;this-is-header4&quot;&gt;this is header4&lt;/h4&gt;
-
-&lt;h3 id=&quot;this-is-header3&quot;&gt;this is header3&lt;/h3&gt;
-
-&lt;h2 id=&quot;title-is-header-2&quot;&gt;title is header 2&lt;/h2&gt;
-
-&lt;h1 id=&quot;this-is-header-1&quot;&gt;this is header 1&lt;/h1&gt;
-
-&lt;p&gt;hello there&lt;/p&gt;
-
-&lt;p&gt;search_box’).val(query)
-    var results = window.idx.search(query)
-    document.title = ‘Search - ‘ + ‘&quot;’ + query + ‘&quot;’
-    display_search_results(results, query)
-  })&lt;/p&gt;
-
-&lt;p&gt;window.data.fail(function () {
-    console.log(‘failed’)
-  })&lt;/p&gt;
-
-&lt;p&gt;// display_search_results renders&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/blog/2016/01/second_post</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2016/01/second_post</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     

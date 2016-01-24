@@ -1,34 +1,18 @@
 {
   
 
+    "Hello World!": {
+      "title": "Hello world!",
+      "url": "/blog/2016/01/hello-world",
+      "content": " <p> So I decided to start my own blog on my new webpage. I hope to add stuff regularly, and I hope that the other sections of the site will soon be populated with more and more content. I’ll try to keep it updated regularly, depending on how busy life is going. In the meantime, you can check out my other sites  <a href=\"/links\"> here </a> . </p> \n\n <p> For this site, I utilized Jekyll, a templating tool that helps to build websites. </p> \n\n <p> I’m not quite sure what this site will turn into. I’m expecting to post about code, about travel, about stuff going on in the world, and on things that I find cool. We’ll see what happens. I’m pretty excited about the layout as of now. </p> \n"
+    }
+  	,
+  
+
     "testing for project": {
       "title": "Testing for project",
       "url": "/projects/2016/01/test-project",
       "content": " <h2 id=\"hello-this-is-a-title-for-the-project\"> hello this is a title for the project </h2> \n <p> test stuff; </p> \n"
-    }
-  	,
-  
-
-    "first post": {
-      "title": "First post",
-      "url": "/blog/2016/01/post",
-      "content": " <h2 id=\"hi\"> hi </h2> \n\n <p> this is a blog post. hopefully it wofdsajklrks out </p> \n"
-    }
-  	,
-  
-
-    "first post": {
-      "title": "First post",
-      "url": "/articles/2016/01/article-test",
-      "content": " <h2 id=\"stuff-goes-here\"> stuff goes here </h2> \n"
-    }
-  	,
-  
-
-    "second post": {
-      "title": "Second post",
-      "url": "/blog/2016/01/second_post",
-      "content": " <h6 id=\"this-is-header6\"> this is header6 </h6> \n\n <h5 id=\"this-is-header5\"> this is header5 </h5> \n\n <h4 id=\"this-is-header4\"> this is header4 </h4> \n\n <h3 id=\"this-is-header3\"> this is header3 </h3> \n\n <h2 id=\"title-is-header-2\"> title is header 2 </h2> \n\n <h1 id=\"this-is-header-1\"> this is header 1 </h1> \n\n <p> hello there </p> \n\n <p> search_box’).val(query)\n    var results = window.idx.search(query)\n    document.title = ‘Search - ‘ + ‘\"’ + query + ‘\"’\n    display_search_results(results, query)\n  }) </p> \n\n <p> window.data.fail(function () {\n    console.log(‘failed’)\n  }) </p> \n\n <p> // display_search_results renders </p> \n"
     }
   	
   

@@ -193,6 +193,7 @@ html, body {
   height: 20px;
   margin-left: 10px;
   margin-right: 10px;
+  width: 200px;
 }
 
 [type='text'] {
@@ -326,6 +327,7 @@ html, body {
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  max-height: 50px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -334,10 +336,10 @@ html, body {
   background-color: $dark-dark-gray;
   display: block;
   margin-bottom: 15px;
-  max-height: 70px;
+  max-height: 100px;
   overflow: hidden;
   padding: 30px;
-  padding-bottom: 50px;
+
 }
 
 .derick-logo {
@@ -361,10 +363,42 @@ html, body {
   display: block;
   font-size: 20px;
   padding: 10px;
+
 }
 
 .post-wrapper {
   margin: 3%;
+  padding: 2%;
+  background-color: $dark-gray;
+}
+
+.propic {
+  height: 100px;
+  border-radius: 50px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.profiles {
+  margin: 0 auto;
+  width: 704px;
+
+  > div {
+    width: 350px;
+    height: 100%;
+    font-size: 30px;
+    display: inline-block;
+    // float: left;
+  }
+
+  .site-icon {
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .link-text {
+    display: inline;
+  }
 }
 
 @media (max-width: 600px) {
@@ -395,6 +429,25 @@ html, body {
       float: none;
       height: auto;
       text-align: center;
+    }
+  }
+}
+
+@media (max-width: 764px) {
+  .profiles {
+    width: 204px;
+    
+    .link-text {
+      display: none;
+    }
+
+    .site-icon {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    div {
+      width: 204px;
     }
   }
 }
