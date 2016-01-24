@@ -142,6 +142,7 @@ img {
 
 .beta-dark-background {
   background-image: url('{{ site.baseurl }}/assets/img/beta-dark-background.jpg');
+  background-size: cover;
 }
 
 // .product-select {
@@ -154,6 +155,10 @@ img {
 //     background: $darkest-gray;
 //   }
 // }
+html, body {
+  margin: 0;
+  width: 100%;
+}
 
 .product-wrapper,
 .post-header {
@@ -178,7 +183,6 @@ img {
   float: right;
   margin-bottom: 20px;
   margin-top: 20px;
-  max-width: 300px;
 }
 
 .search-box {
@@ -189,7 +193,6 @@ img {
   height: 20px;
   margin-left: 10px;
   margin-right: 10px;
-  width: 202px;
 }
 
 [type='text'] {
@@ -279,7 +282,11 @@ img {
   margin-left: 10px;
   position: absolute;
   top: 5px;
-  width: 640px;
+  width: 50%;
+
+  &:hover {
+    opacity: .7;
+  }
 }
 
 .return {
@@ -329,7 +336,8 @@ img {
   margin-bottom: 15px;
   max-height: 70px;
   overflow: hidden;
-  padding: 3%;
+  padding: 30px;
+  padding-bottom: 50px;
 }
 
 .derick-logo {
@@ -369,7 +377,7 @@ img {
 
   .derick-logo {
     display: block;
-    left: 46.7%;
+    left: 46.5%;
     margin-bottom: 10px;
     position: relative;
   }
@@ -381,6 +389,7 @@ img {
 
   .footer-links {
     float: center;
+    margin-bottom: 10px;
 
     > li {
       float: none;

@@ -18,7 +18,7 @@ permalink: /:categories/:year/:month/:title
 collections:
   products:
     output: true
-    permalink: /:title
+    permalink: /:title/
   search:
     output: true
     permalink: /:title

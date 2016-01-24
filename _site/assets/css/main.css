@@ -87,7 +87,7 @@ blockquote {
       max-width: -webkit-calc(800px - (30px));
       max-width: calc(800px - (30px)); } }
 
-.wrapper::after, .footer-col-wrapper::after {
+.wrapper::after {
   clear: both;
   content: '';
   display: table; }
@@ -213,42 +213,6 @@ blockquote {
   list-style: none;
   margin-left: 0; }
 
-.footer-col-wrapper {
-  color: #828282;
-  font-size: 15px;
-  margin-left: -15px; }
-
-.footer-col {
-  float: left;
-  margin-bottom: 15px;
-  padding-left: 15px; }
-
-.footer-col-1 {
-  width: -webkit-calc(35% - (30px / 2));
-  width: calc(35% - (30px / 2)); }
-
-.footer-col-2 {
-  width: -webkit-calc(20% - (30px / 2));
-  width: calc(20% - (30px / 2)); }
-
-.footer-col-3 {
-  width: -webkit-calc(45% - (30px / 2));
-  width: calc(45% - (30px / 2)); }
-
-@media screen and (max-width: 800px) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(50% - (30px / 2));
-    width: calc(50% - (30px / 2)); }
-
-  .footer-col-3 {
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
-@media screen and (max-width: 600px) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
 .page-content {
   padding: 0; }
 
@@ -332,7 +296,12 @@ img {
       color: #417dc1; }
 
 .beta-dark-background {
-  background-image: url("/assets/img/beta-dark-background.jpg"); }
+  background-image: url("/assets/img/beta-dark-background.jpg");
+  background-size: cover; }
+
+html, body {
+  margin: 0;
+  width: 100%; }
 
 .product-wrapper,
 .post-header {
@@ -350,8 +319,7 @@ img {
 .search {
   float: right;
   margin-bottom: 20px;
-  margin-top: 20px;
-  max-width: 300px; }
+  margin-top: 20px; }
 
 .search-box {
   background-color: #e8e8e8;
@@ -360,8 +328,7 @@ img {
   float: right;
   height: 20px;
   margin-left: 10px;
-  margin-right: 10px;
-  width: 202px; }
+  margin-right: 10px; }
 
 [type='text'] {
   padding-left: 5px; }
@@ -407,7 +374,9 @@ img {
   margin-left: 10px;
   position: absolute;
   top: 5px;
-  width: 640px; }
+  width: 50%; }
+  .logo:hover {
+    opacity: .7; }
 
 .return {
   color: #417dc1;
@@ -448,7 +417,8 @@ img {
   margin-bottom: 15px;
   max-height: 70px;
   overflow: hidden;
-  padding: 3%; }
+  padding: 30px;
+  padding-bottom: 50px; }
 
 .derick-logo {
   background-image: url("/assets/img/derick-logo.png");
@@ -478,7 +448,7 @@ img {
 @media (max-width: 720px) {
   .derick-logo {
     display: block;
-    left: 46.7%;
+    left: 46.5%;
     margin-bottom: 10px;
     position: relative; }
 
@@ -487,7 +457,8 @@ img {
     text-align: center; }
 
   .footer-links {
-    float: center; }
+    float: center;
+    margin-bottom: 10px; }
     .footer-links > li {
       float: none;
       height: auto;

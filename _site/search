@@ -6,15 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>404</title>
+  <title>Search</title>
   <meta name="description" content="">
-  <!-- 
-  <meta http-equiv="refresh" content="5; url=/404">
-   -->
+  <!--  -->
   <link rel='shortcut icon' href="/assets/img/favicon.ico" type='image/x-icon'>
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="http://yourdomain.com/404.html">
+  <link rel="canonical" href="http://yourdomain.com/search">
   <link rel="alternate" type="application/rss+xml" title="Derick Yang" href="http://yourdomain.com/feed.xml">
   
   <script src="/assets/js/vendor/jquery.min.js" async></script>
@@ -50,8 +48,16 @@
  
 
     <div class="page-content">
-        <h2 id="thats-an-error-try-searching-in-the-search-bar-above-or-go-home"><strong>404.</strong> That’s an error. Try searching in the search bar above or <strong><a href="/">go home</a></strong>.</h2>
+        <ul id="search_results"></ul>
+<article id="all-content" class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="post-content" itemprop="articleBody">
+        
+    </div>
 
+    <script src="/assets/js/vendor/lunr.min.js"></script>
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+    <script src="/assets/js/search.js"></script>
+</article>
     </div>
     <footer class="site-footer">
   <div class="container">
