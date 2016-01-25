@@ -433,8 +433,12 @@ p a {
 }
 
 @media (max-width: 600px) {
-  .product-wrapper {
+  .product-wrapper,
+  .post-header {
     padding-left: $spacing-unit;
+  }
+  .search-box {
+    width: 150px;
   }
 }
 

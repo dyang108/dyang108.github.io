@@ -490,8 +490,12 @@ p a {
   text-decoration: underline; }
 
 @media (max-width: 600px) {
-  .product-wrapper {
-    padding-left: 30px; } }
+  .product-wrapper,
+  .post-header {
+    padding-left: 30px; }
+
+  .search-box {
+    width: 150px; } }
 @media (max-width: 720px) {
   .derick-logo {
     display: block;
