@@ -10,7 +10,7 @@ jQuery(function () {
   })
   // Download the data from the JSON file we generated
   window.data = $.getJSON('/search_data.json')
-  console.log('dasf')
+
   // Wait for the data to load and add it to lunr
   window.data.then(function (loaded_data) {
     $.each(loaded_data, function (index, value) {
@@ -41,7 +41,7 @@ jQuery(function () {
       // Are there any results?
       if (results.length) {
         // there are results! generate a heading
-        var search_heading = document.createElement('h4')
+        var search_heading = document.createElement('h1')
         $(search_heading).html('Results for "' + query + '"')
         $search_results.append(search_heading)
 
@@ -49,10 +49,11 @@ jQuery(function () {
         results.forEach(function (result) {
           // create a wrapper for the new result
           var result_wrapper = document.createElement('div')
+          result_wrapper.className = 'result'
           var item = loaded_data[result.ref]
 
           // get title
-          var curr_result = document.createElement('h2')
+          var curr_result = document.createElement('h3')
           $(curr_result).html(item.title)
 
           // get context

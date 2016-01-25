@@ -21,7 +21,7 @@ collections:
     permalink: /:title/
   search:
     output: true
-    permalink: /:title
+    permalink: /:title/
 markdown: kramdown
 defaults:
   -

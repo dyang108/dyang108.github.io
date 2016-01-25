@@ -446,6 +446,14 @@ html, body {
   margin: 3%;
   padding: 2%; }
 
+.error {
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 5px #000;
+  margin: 3%;
+  padding: 2%;
+  padding-bottom: 1%;
+  text-align: center; }
+
 .propic {
   height: 100px;
   border-radius: 50px;
@@ -465,6 +473,21 @@ html, body {
     margin-right: 10px; }
   .profiles .link-text {
     display: inline; }
+
+.search-results {
+  margin: 30px; }
+
+.result {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px; }
+  .result > a > h3 {
+    border-bottom: 2px solid white;
+    margin-bottom: 10px; }
+
+p a {
+  text-decoration: underline; }
 
 @media (max-width: 600px) {
   .product-wrapper {
