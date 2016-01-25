@@ -3,10 +3,10 @@ title: Articles
 slug: articles
 color: D65277
 desc: Things I read
-background: /assets/img/maine-lake.png
+background: /assets/img/maine.jpg
 ---
 
-### *this is a description for echo*
+### *Here are some articles that I've found interesting:*
 
 {% for post in site.categories.articles %}
 <div>

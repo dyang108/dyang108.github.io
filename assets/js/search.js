@@ -78,7 +78,7 @@ jQuery(function () {
       } else { // no results
         $search_results.append('<h2>No results found for \"' + query + '\"</h2>')
       }
-      $('#all-content').html(search_results)
+      $('#post-content').html(search_results)
     })
   }
 

@@ -3,8 +3,10 @@ title: Projects
 slug: projects
 color: 27A9E1
 desc: Cool things I'm working on
-background: /assets/img/tufts-candles.png
+background: /assets/img/tufts-candles.JPG
 ---
+
+## *Here are some projects that I am working on in my time:*
 
 {% for post in site.categories.projects %}
 <div>

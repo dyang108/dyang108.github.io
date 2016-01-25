@@ -2,7 +2,7 @@
 layout: default
 ---
 <article id="all-content" class="post" itemprop="articleBody">
-  <header class="post-header">
+  <header class="post-header" style="background-image:{% if page.background %} url({{ page.background }}){% else %}none{% endif %};">
     <img class="faq-img" src="{{ site.baseurl }}/assets/img/{{ page.category }}.png">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}
       <div class="return">

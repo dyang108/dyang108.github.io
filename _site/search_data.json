@@ -1,18 +1,26 @@
 {
   
 
-    "Hello World!": {
-      "title": "Hello world!",
-      "url": "/blog/2016/01/hello-world",
-      "content": " <p> So I decided to start my own blog on my new webpage. I hope to add stuff regularly, and I hope that the other sections of the site will soon be populated with more and more content. I’ll try to keep it updated regularly, depending on how busy life is going. In the meantime, you can check out my other sites  <a href=\"/links\"> here </a> . </p> \n\n <p> For this site, I utilized Jekyll, a templating tool that helps to build websites. </p> \n\n <p> I’m not quite sure what this site will turn into. I’m expecting to post about code, about travel, about stuff going on in the world, and on things that I find cool. We’ll see what happens. I’m pretty excited about the layout as of now. </p> \n"
+    "Roommate Communication Tool": {
+      "title": "Roommate communication tool",
+      "url": "/projects/2016/11/bttn",
+      "content": " <p> A tool for college roommates to communicate using the simplest UI in the world\nDuring Tufts Polyhack in November 2015, I collaborated on a project utilizing several different API’s to facilitate roommate communication.\nWe utilized the  <a href=\"https://bt.tn/\"> bt.tn </a>  to create a simple way to communicate with your college roommate. At the press of a button, you can send an SMS to your roommate, suggesting that he/she take a night out, giving TripAdvisor suggestions for things to do based on their location. </p> \n\n <p> Status: Though we managed to put together all the individual pieces for the project, we still have work left to do integrating the pieces together. We did not host our website, and the bttn had a limited number of uses. I think the bttn is a very interesting tool, and I would like to explore more uses of it later. Check out my project on  <a href=\"https://github.com/dyang108/poyhack-2015\"> Github </a>  </p> \n"
     }
   	,
   
 
-    "testing for project": {
-      "title": "Testing for project",
-      "url": "/projects/2016/01/test-project",
-      "content": " <h2 id=\"hello-this-is-a-title-for-the-project\"> hello this is a title for the project </h2> \n <p> test stuff; </p> \n"
+    "PartyMap": {
+      "title": "Partymap",
+      "url": "/projects/2016/10/pmap",
+      "content": " <p> A tool to see whats going on on campus.\nAt HackDartmouth in October 2015, I collaborated with other students to build a social-media web application to keep track of events on campus. The idea is to cluster users based on location and show where people are gathered on campus. </p> \n\n <p> Status: Good front end. We utilized a Google Maps API and started playing around with it. I would really like to continue working on this a little more. Check it out on  <a href=\"https://github.com/dyang108/partymap\"> Github </a> . </p> \n"
+    }
+  	,
+  
+
+    "Hello World!": {
+      "title": "Hello world!",
+      "url": "/blog/2016/01/hello-world",
+      "content": " <p> So I decided to start my own blog on my new webpage. I hope to add stuff regularly, and I hope that the other sections of the site will soon be populated with more and more content. I’ll try to keep it updated regularly, depending on how busy life is going. In the meantime, you can check out my other sites  <a href=\"/links\"> here </a> . </p> \n\n <p> For this site, I utilized Jekyll, a templating tool that helps to build websites. </p> \n\n <p> I’m not quite sure what this site will turn into. I’m expecting to post about code, about travel, about stuff going on in the world, and on things that I find cool. We’ll see what happens. I’m pretty excited about the layout as of now. </p> \n"
     }
   	
   

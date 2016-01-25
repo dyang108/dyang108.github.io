@@ -441,9 +441,10 @@ html, body {
   padding: 10px; }
 
 .post-wrapper {
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 5px #000;
   margin: 3%;
-  padding: 2%;
-  background-color: rgba(0, 0, 0, 0.25); }
+  padding: 2%; }
 
 .propic {
   height: 100px;

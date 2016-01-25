@@ -367,9 +367,10 @@ html, body {
 }
 
 .post-wrapper {
+  background-color: $dark-gray;
+  box-shadow: 0 2px 5px $black;
   margin: 3%;
   padding: 2%;
-  background-color: $dark-gray;
 }
 
 .propic {
