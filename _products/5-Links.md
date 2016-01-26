@@ -20,5 +20,6 @@ background: /assets/img/family.JPG
 </div>
 <div class="profile-link">
 <a href="https://open.spotify.com/user/1266550198"><img class="propic" src="https://scontent.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/1661621_10205679982020401_7659134762242100686_n.jpg?oh=f4337ea5b05b7810715a09dc125ea2bc&oe=5743C7B6"><img class="site-icon" src="/assets/img/spotify.png"><div class="link-text">Spotify</div></a>
+<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3A1266550198%3Aplaylist%3A3kGVQV5UelXQL3sq4Kf2ez&view=coverart" class="spotify-play" frameborder="0" allowtransparency="true"></iframe>
 </div>
 </div>

@@ -5,9 +5,50 @@
     <description></description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Jan 2016 01:12:54 -0500</pubDate>
-    <lastBuildDate>Mon, 25 Jan 2016 01:12:54 -0500</lastBuildDate>
+    <pubDate>Tue, 26 Jan 2016 00:00:04 -0500</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2016 00:00:04 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>C and the Syllabus Day</title>
+        <description>&lt;p&gt;Ahh… the first day of classes. For the student, this means syllabi by the handful. (I will admit, however, that this post is also an attempt to get more material on to the page.)
+This semester, I’m taking Machine Structure/Assembly Language, Web Programming, Real Analysis II and Statistics.&lt;/p&gt;
+
+&lt;p&gt;In Comp 40 today, we were promised a dive deep down to the metal of the computer, learning the very basics of how computers work. Great stuff. From my experience working with C++, Java, and scripting languages, I have not had much chance to figure out how computers work. This semester, I think, is the time for that. I want to be able to learn: how computers work on their own, and how computers work talking to each other. There’s a lot of stuff left to learn, and I’m really excited to start to really &lt;em&gt;understand&lt;/em&gt; computers.&lt;/p&gt;
+
+&lt;p&gt;I’m sure, as I go on learning C in this class, I will come up with my typical coder’s list of complaints about the ‘basicness’ of the language, but as of now, I think it’s really helping me understand some more of the basic stuff that I need to know. I’ve been working from such a high level, that I think it’ll be pretty good for me to dig deeper.&lt;/p&gt;
+
+&lt;p&gt;Here’s to more content, and much more additions to the site as I go on. (In the meantime, check out the cool Spotify widget I added on the &lt;a href=&quot;/links/&quot;&gt;Links&lt;/a&gt; page).&lt;/p&gt;
+
+&lt;p&gt;A cool thing about Jekyll for blogging is that I can edit this content way past the actual post date… so to be honest, if you’re reading this in 2020, chances are I probably changed to be more geared towards my 2020 audience. I can also (unlike in other types of blogs) sneakily insert posts at random dates way past the date. So I suppose that makes it hard for the user to trust that the posts that I write are actually on posted on the date that I say they are. From now on, I say you can trust me when I say I put the correct date (&lt;strong&gt;but you really can’t&lt;/strong&gt;). (see what i did there?).&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/blog/2016/01/c-and-syllabus-day</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2016/01/c-and-syllabus-day</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;So I decided to start my own blog on my new webpage. I hope to add stuff regularly, and I hope that the other sections of the site will soon be populated with more and more content. I’ll try to keep it updated regularly, depending on how busy life is going. In the meantime, you can check out my other sites &lt;a href=&quot;/links&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For this site, I utilized Jekyll, a templating tool that helps to build websites.&lt;/p&gt;
+
+&lt;p&gt;I’m not quite sure what this site will turn into. I’m expecting to post about code, about travel, about stuff going on in the world, and on things that I find cool. We’ll see what happens. I’m pretty excited about the layout as of now.&lt;/p&gt;
+
+&lt;p&gt;Here goes nothing.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/blog/2016/01/hello-world</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2016/01/hello-world</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Roommate Communication Tool</title>
@@ -17,9 +58,9 @@ We utilized the &lt;a href=&quot;https://bt.tn/&quot;&gt;bt.tn&lt;/a&gt; to crea
 
 &lt;p&gt;Status: Though we managed to put together all the individual pieces for the project, we still have work left to do integrating the pieces together. We did not host our website, and the bttn had a limited number of uses. I think the bttn is a very interesting tool, and I would like to explore more uses of it later. Check out my project on &lt;a href=&quot;https://github.com/dyang108/poyhack-2015&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 17 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/projects/2016/11/bttn</link>
-        <guid isPermaLink="true">http://yourdomain.com/projects/2016/11/bttn</guid>
+        <pubDate>Tue, 17 Nov 2015 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/projects/2015/11/bttn</link>
+        <guid isPermaLink="true">http://yourdomain.com/projects/2015/11/bttn</guid>
         
         
         <category>projects</category>
@@ -33,29 +74,12 @@ At HackDartmouth in October 2015, I collaborated with other students to build a 
 
 &lt;p&gt;Status: Good front end. We utilized a Google Maps API and started playing around with it. I would really like to continue working on this a little more. Check it out on &lt;a href=&quot;https://github.com/dyang108/partymap&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 21 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://yourdomain.com/projects/2016/10/pmap</link>
-        <guid isPermaLink="true">http://yourdomain.com/projects/2016/10/pmap</guid>
+        <pubDate>Wed, 21 Oct 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/projects/2015/10/pmap</link>
+        <guid isPermaLink="true">http://yourdomain.com/projects/2015/10/pmap</guid>
         
         
         <category>projects</category>
-        
-      </item>
-    
-      <item>
-        <title>Hello World!</title>
-        <description>&lt;p&gt;So I decided to start my own blog on my new webpage. I hope to add stuff regularly, and I hope that the other sections of the site will soon be populated with more and more content. I’ll try to keep it updated regularly, depending on how busy life is going. In the meantime, you can check out my other sites &lt;a href=&quot;/links&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;For this site, I utilized Jekyll, a templating tool that helps to build websites.&lt;/p&gt;
-
-&lt;p&gt;I’m not quite sure what this site will turn into. I’m expecting to post about code, about travel, about stuff going on in the world, and on things that I find cool. We’ll see what happens. I’m pretty excited about the layout as of now.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 24 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/blog/2016/01/hello-world</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2016/01/hello-world</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     

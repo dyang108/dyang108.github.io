@@ -247,7 +247,7 @@ ul {
   margin: 0; }
 
 .page-heading {
-  font-family: Exo, Helvetica Neue, Verdana;
+  font-family: Exo;
   font-size: 50px;
   text-align: center; }
 
@@ -267,7 +267,7 @@ ul {
 .container {
   border-color: #000;
   border-top: 11px;
-  font-family: Exo, Helvetica Neue, Verdana;
+  font-family: Exo;
   margin: 30px; }
 
 a {
@@ -301,7 +301,8 @@ img {
 
 html, body {
   margin: 0;
-  width: 100%; }
+  width: 100%;
+  font-family: Exo; }
 
 .product-wrapper,
 .post-header {
@@ -488,6 +489,11 @@ html, body {
 
 p a {
   text-decoration: underline; }
+
+.spotify-play {
+  height: 80px;
+  margin: 0 auto;
+  box-shadow: 0 2px 10px #000; }
 
 @media (max-width: 600px) {
   .product-wrapper,
