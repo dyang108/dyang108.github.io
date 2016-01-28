@@ -312,6 +312,11 @@ html, body {
   padding: 30px;
   padding-left: 20%; }
 
+.product-wrapper {
+  -webkit-filter: brightness(100%); }
+  .product-wrapper:hover {
+    -webkit-filter: brightness(115%); }
+
 .faq-img {
   display: inline-block;
   margin: 0 30px 30px 0;
@@ -488,11 +493,17 @@ html, body {
     margin-bottom: 10px; }
 
 p a {
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: #8cc63e; }
+  p a:visited {
+    color: #8cc63e; }
+  p a:hover {
+    color: #2a7ae2; }
 
 .spotify-play {
   height: 80px;
   margin: 0 auto;
+  vertical-align: center;
   box-shadow: 0 2px 10px #000; }
 
 @media (max-width: 600px) {

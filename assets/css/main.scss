@@ -24,6 +24,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $white:            #fff;
 $black:            #000;
+$link-color:       #8cc63e;
 $base-color:       #417dc1;
 $dark-gray:        rgba(0, 0, 0, .25);
 $dark-dark-gray:   rgba(0, 0, 0, .5);
@@ -170,10 +171,13 @@ html, body {
   padding-left: 20%;
 }
 
-.post-header {
-  // box-shadow: 0 2px 20px $black;
+.product-wrapper {
+  -webkit-filter: brightness(100%);
+  
+  &:hover {
+    -webkit-filter: brightness(115%);
+  }
 }
-
 .faq-img {
   display: inline-block;
   margin: 0 30px 30px 0;
@@ -431,11 +435,21 @@ html, body {
 
 p a {
   text-decoration: underline;
+  color: $link-color;
+
+  &:visited {
+    color: $link-color;
+  }
+
+  &:hover {
+    color: $brand-color;
+  }
 }
 
 .spotify-play {
   height: 80px;
   margin: 0 auto;
+  vertical-align: center;
   box-shadow: 0 2px 10px $black;
 }
 
