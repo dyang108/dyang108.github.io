@@ -1,6 +1,22 @@
 {
   
 
+    "The Phenomenon of Starting Things": {
+      "title": "The phenomenon of starting things",
+      "url": "/blog/2016/01/starting-things",
+      "content": " <p> I’ve told myself sometimes that I’m going to start a blog. I’ve tried to build one in a few random places, and it’s interesting because I didn’t really try to keep up with it after the first post. Maybe I post again three months later, but maybe not. </p> \n\n <p> This problem tends to compound upon itself, as when I start a new blog, I want the time between my posts to be rather consistent, and since I know that I will probably end up posting less and less frequently, I decide at the very beginning to try to space out my posts. This results in me just forgetting about it altogether, and never posting at all. </p> \n\n <p> So I’m gonna forget about the whole consistent time intervals between posts thing. Sure, perhaps I lose some consistency later on, but then again, perhaps not. Also, the fact is that I built this page on my own, so I feel like I am more likely to build on it. </p> \n\n <p> Great. Awesome. Now that that’s out of the way, I can post whenever I want. </p> \n"
+    }
+  	,
+  
+
+    "Go and Artificial Intelligence": {
+      "title": "Go and artificial intelligence",
+      "url": "/articles/2016/01/go-ai",
+      "content": " <p> I came across this really interesting article about a program designed to beat computers at the Chinese game  <em> Go </em>   <a href=\"http://www.nature.com/news/google-ai-algorithm-masters-ancient-game-of-go-1.19234\"> here </a> . This breakthrough is reminiscent of IBM’s Deep Blue in the 1990’s, beating chess champion Gary Kasparov in a test of man vs computer. </p> \n\n <p> Go is significantly harder for a computer to solve than chess, with approximately 10 <sup> 170 </sup>  board configurations. </p> \n\n <p> The program utilizes deep neural networks to determine the best possible move from a given position. After learning from millions of expert games, the program played against itself, learning to improve along the way. </p> \n\n <p> This is pretty big for Google (who designed the program), machine learning, and technology in general. Read more about it  <a href=\"http://www.nature.com/news/google-ai-algorithm-masters-ancient-game-of-go-1.19234\"> here </a> . </p> \n\n"
+    }
+  	,
+  
+
     "C and the Syllabus Day": {
       "title": "C and the syllabus day",
       "url": "/blog/2016/01/c-and-syllabus-day",
@@ -13,6 +29,14 @@
       "title": "Hello world!",
       "url": "/blog/2016/01/hello-world",
       "content": " <p> So I decided to start my own blog on my new webpage. I hope to add stuff regularly, and I hope that the other sections of the site will soon be populated with more and more content. I’ll try to keep it updated regularly, depending on how busy life is going. In the meantime, you can check out my other sites  <a href=\"/links\"> here </a> . </p> \n\n <p> For this site, I utilized Jekyll, a templating tool that helps to build websites. </p> \n\n <p> I’m not quite sure what this site will turn into. I’m expecting to post about code, about travel, about stuff going on in the world, and on things that I find cool. We’ll see what happens. I’m pretty excited about the layout as of now. </p> \n\n <p> Here goes nothing. </p> \n"
+    }
+  	,
+  
+
+    "My site": {
+      "title": "My site",
+      "url": "/projects/2016/01/my-site",
+      "content": " <p> A website for people to get to know a little more about me. You’re probably looking at it right now. To look at the code, check it out on  <a href=\"https://github.com/dyang108/dyang108.github.io\"> Github </a> . </p> \n"
     }
   	,
   

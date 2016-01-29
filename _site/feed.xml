@@ -5,9 +5,48 @@
     <description></description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Jan 2016 00:41:41 -0500</pubDate>
-    <lastBuildDate>Tue, 26 Jan 2016 00:41:41 -0500</lastBuildDate>
+    <pubDate>Fri, 29 Jan 2016 15:33:39 -0500</pubDate>
+    <lastBuildDate>Fri, 29 Jan 2016 15:33:39 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>The Phenomenon of Starting Things</title>
+        <description>&lt;p&gt;I’ve told myself sometimes that I’m going to start a blog. I’ve tried to build one in a few random places, and it’s interesting because I didn’t really try to keep up with it after the first post. Maybe I post again three months later, but maybe not.&lt;/p&gt;
+
+&lt;p&gt;This problem tends to compound upon itself, as when I start a new blog, I want the time between my posts to be rather consistent, and since I know that I will probably end up posting less and less frequently, I decide at the very beginning to try to space out my posts. This results in me just forgetting about it altogether, and never posting at all.&lt;/p&gt;
+
+&lt;p&gt;So I’m gonna forget about the whole consistent time intervals between posts thing. Sure, perhaps I lose some consistency later on, but then again, perhaps not. Also, the fact is that I built this page on my own, so I feel like I am more likely to build on it.&lt;/p&gt;
+
+&lt;p&gt;Great. Awesome. Now that that’s out of the way, I can post whenever I want.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/blog/2016/01/starting-things</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2016/01/starting-things</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Go and Artificial Intelligence</title>
+        <description>&lt;p&gt;I came across this really interesting article about a program designed to beat computers at the Chinese game &lt;em&gt;Go&lt;/em&gt; &lt;a href=&quot;http://www.nature.com/news/google-ai-algorithm-masters-ancient-game-of-go-1.19234&quot;&gt;here&lt;/a&gt;. This breakthrough is reminiscent of IBM’s Deep Blue in the 1990’s, beating chess champion Gary Kasparov in a test of man vs computer.&lt;/p&gt;
+
+&lt;p&gt;Go is significantly harder for a computer to solve than chess, with approximately 10&lt;sup&gt;170&lt;/sup&gt; board configurations.&lt;/p&gt;
+
+&lt;p&gt;The program utilizes deep neural networks to determine the best possible move from a given position. After learning from millions of expert games, the program played against itself, learning to improve along the way.&lt;/p&gt;
+
+&lt;p&gt;This is pretty big for Google (who designed the program), machine learning, and technology in general. Read more about it &lt;a href=&quot;http://www.nature.com/news/google-ai-algorithm-masters-ancient-game-of-go-1.19234&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 28 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/articles/2016/01/go-ai</link>
+        <guid isPermaLink="true">http://yourdomain.com/articles/2016/01/go-ai</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
     
       <item>
         <title>C and the Syllabus Day</title>
@@ -47,6 +86,19 @@ This semester, I’m taking Machine Structure/Assembly Language, Web Programming
         
         
         <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>My site</title>
+        <description>&lt;p&gt;A website for people to get to know a little more about me. You’re probably looking at it right now. To look at the code, check it out on &lt;a href=&quot;https://github.com/dyang108/dyang108.github.io&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/projects/2016/01/my-site</link>
+        <guid isPermaLink="true">http://yourdomain.com/projects/2016/01/my-site</guid>
+        
+        
+        <category>projects</category>
         
       </item>
     
