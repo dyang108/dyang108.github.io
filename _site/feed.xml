@@ -5,9 +5,30 @@
     <description></description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Jan 2016 15:33:39 -0500</pubDate>
-    <lastBuildDate>Fri, 29 Jan 2016 15:33:39 -0500</lastBuildDate>
+    <pubDate>Tue, 02 Feb 2016 18:34:03 -0500</pubDate>
+    <lastBuildDate>Tue, 02 Feb 2016 18:34:03 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>The Separation of Church and State</title>
+        <description>&lt;p&gt;Good web developers separate the three main parts of their page: HTML (Content), CSS (Stying), and JavaScript (Effects/server/whatnot). This page doesn’t do that.&lt;/p&gt;
+
+&lt;p&gt;Okay. To be honest, I’m being lazy. Let me make a quick note of them, so that my web programming professor does not judge me for this.&lt;/p&gt;
+
+&lt;p&gt;First off, trying to generate a search page for Jekyll requires some dynamic generation of content, and so I have JavaScript render it. There are extra templating tools, like &lt;a href=&quot;underscorejs.org&quot;&gt;Underscore.js&lt;/a&gt;, that will render content on a template so that even the search page can be purely HTML. (I’ll probably wanna do this later).&lt;/p&gt;
+
+&lt;p&gt;Secondly, I have not found a way in Jekyll templates to render a background image easily in pure CSS. So, in a sort of hacky way, I defined the background image in the HTML template, so that it is clean for me to change the background whenever I want.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/maxjacobson&quot;&gt;MJ&lt;/a&gt;, who’s website is &lt;a href=&quot;http://www.hardscrabble.net/&quot;&gt;here&lt;/a&gt; for the help on this.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Feb 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/blog/2016/02/separation-church-state</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2016/02/separation-church-state</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>The Phenomenon of Starting Things</title>
