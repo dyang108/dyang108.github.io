@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Phenomenon of Starting Things
+title: Starting Things
 category: blog
 date: 2016-01-28
 ---
