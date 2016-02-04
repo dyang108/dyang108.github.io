@@ -279,11 +279,11 @@ html, body {
   background-image: url('{{ site.baseurl }}/assets/img/derick-logo.png');
   background-repeat: no-repeat;
   background-size: 50px;
-  height: 78px;
+  height: 50px;
   margin-left: 10px;
   position: absolute;
-  top: 5px;
-  width: 50%;
+  top: 4px;
+  width: 50px;
 
   &:hover {
     opacity: .7;
