@@ -3,7 +3,7 @@ title: Projects
 slug: projects
 color: 27A9E1
 desc: Cool things I'm working on
-background: /assets/img/tufts-candles.JPG
+background: /assets/img/maine.jpg
 ---
 
 ## *Here are some projects that I am working on in my time:*

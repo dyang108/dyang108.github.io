@@ -1,7 +1,8 @@
 .page-content {
-	margin: 20px;
-	padding: 20px;
+  background-color: #000;
   background-color: rgba(0, 0, 0, .5);
+  margin: 20px;
+  padding: 20px;
 }
 
 .bold {
@@ -118,7 +119,7 @@ body {
   font-family: 'Exo';
   font-style: normal;
   font-weight: normal;
-  src: url('fonts/Exo2.0-Light.otf') format('opentype');
+  src: url('fonts/Exo2.0-Light.otf?#iefix') format('opentype');
 }
 
 @font-face {

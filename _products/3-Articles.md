@@ -3,7 +3,7 @@ title: Articles
 slug: articles
 color: D65277
 desc: Things I read
-background: /assets/img/maine.jpg
+background: /assets/img/tufts-candles.JPG
 ---
 
 ### *Here are some articles that I've found interesting:*
