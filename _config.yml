@@ -22,8 +22,8 @@ collections:
   search:
     output: true
     permalink: /:title/
-# markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
+# markdown: redcarpet
 defaults:
   -
     scope:
