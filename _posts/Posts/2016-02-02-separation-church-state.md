@@ -6,7 +6,7 @@ date: 2016-02-02
 background: http://www.webcodecentral.com/wp-content/uploads/2013/05/html-sublimetext.jpg
 ---
 
-Good web developers separate the three main parts of their page: HTML (Content), CSS (Stying), and JavaScript (Effects/server/whatnot). This page doesn't do that.
+Good web developers separate the three main parts of their page: HTML (Content), CSS (Stying), and JavaScript (Effects/server/whatnot). They call it the Model-View-Controller model. This page doesn't do that.
 
 Okay. To be honest, I'm being lazy. Let me make a quick note of my rule violations, so that my web programming professor does not judge me for this. 
 
