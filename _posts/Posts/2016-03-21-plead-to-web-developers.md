@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A plead to web developers
+title: Make things easier for computers who want to see your site
 category: blog
 date: 2016-03-21
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pseudo-continuity in Computing
+title: Real analysis vs CS
 category: blog 
 date: 2016-02-22
 ---
@@ -15,4 +15,4 @@ Nonetheless, in a computer as we know it, and using the set of real numbers that
 
 On the other end of the spectrum, we cannot hold an infinitely large set of things. For example, in a computer, the open set (0, 1) cannot be covered by the union of open sets (1/n, 1) for *n* in the natural numbers, since there is a limit to how high n can go. Interestingly, we can pick an *n* high enough such that we cover the computer's representation of the open set (0, 1).Conceptually, and in real life, this union does cover the set. But the computer's representation of the union does not cover, and cannot cover, our set.
 
-So there are certain things one can prove with the help of a computer (see the[(Four Color Theorem](https://en.wikipedia.org/wiki/Four_color_theorem)), but there are certain things that the computer cannot prove. Namely, anything that involves the really small or the really big.
+So there are certain things one can prove with the help of a computer (see the [Four Color Theorem](https://en.wikipedia.org/wiki/Four_color_theorem)), but there are certain things that the computer cannot prove. Namely, anything that involves the really small or the really big.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C and the Syllabus Day
+title: C and COMP40
 category: blog
 date: 2016-01-25
 background: https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/The_C_Programming_Language_cover.svg/767px-The_C_Programming_Language_cover.svg.png

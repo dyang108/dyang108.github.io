@@ -6,7 +6,7 @@ desc: Things I see
 background: /assets/img/maine-fall.JPG
 ---
 
-## *Here are some photos I've taken:*
+## *There's no content here yet...:*
 
 {% for post in site.categories.photos %}
 <div>

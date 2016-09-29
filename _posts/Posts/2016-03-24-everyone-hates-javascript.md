@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hating on Javascript
+title: Oh, Javascript
 category: blog 
 date: 2016-03-24
 ---
