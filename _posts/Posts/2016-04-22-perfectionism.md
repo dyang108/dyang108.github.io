@@ -6,7 +6,7 @@ date: 2016-04-22
 background: 
 ---
 
-I'm a perfectionist. And it's the worst.
+I'm a perfectionist.
 
 Let me explain. First of all, it annoys the hell out of me that this line will probably be split up by the div separating each post blurb. Maybe I'll get over it someday. But there are other, more significant things that annoy me more. Like the fact that I probably used the wrong framework for this site altogether. Based on the simplicity of others' Jekyll sites, I feel like I have used the tool past what it should be used for. Templating is great and all, but I feel like I could've had a much easier time designing my site if I had just thought more about what I wanted it to be.
 

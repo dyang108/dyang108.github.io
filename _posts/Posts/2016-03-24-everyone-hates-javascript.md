@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Oh, Javascript
+title: Javascript from an Imperative Programmer's Perspective
 category: blog 
 date: 2016-03-24
 ---
 
 "JavaScript is a misunderstood language. You really need to get to know it before hating on it." -- some web programmer in denial
 
-Okay, so maybe I'll eat my words someday, but I think this pretty much sums it up:
+Okay, I think this pretty much sums it up:
 
 ![two javascript books](https://qph.is.quoracdn.net/main-qimg-eb6eb210fd4116ef10fee083428ed482?convert_to_webp=true)
 
