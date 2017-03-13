@@ -1,12 +1,8 @@
 ---
 title: Links
 slug: links
-color: 8CC63E
-desc: Escape this site to read more about me
-background: /assets/img/family.JPG
 ---
 
-### *Links to some of my other profiles:*
 <div class="profiles">
 <div class="profile-link"><a href="https://github.com/dyang108"><!-- <img class="propic" src="https://avatars0.githubusercontent.com/u/14955423?v=3&s=460" alt="Github profile pic"> --><img class="site-icon" src="/assets/img/github.png" alt="Github icon"><div class="link-text">Github</div></a></div>
 <div class="profile-link">

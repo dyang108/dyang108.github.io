@@ -2,8 +2,7 @@
 layout: default
 ---
 <article id="all-content" class="post" itemprop="articleBody">
-  <header class="post-header" {% if page.background %} style="background-image: url({{ page.background }});"{% endif %}>
-    <img class="faq-img" src="{{ site.baseurl }}/assets/img/{{ page.category }}.png"/>
+  <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}
       <div class="return">
         <a href="{{ site.baseurl }}/{{ page.categories }}">&#60; Return to {{ page.category }}</a>

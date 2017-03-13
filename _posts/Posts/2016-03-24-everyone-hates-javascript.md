@@ -7,10 +7,6 @@ date: 2016-03-24
 
 "JavaScript is a misunderstood language. You really need to get to know it before hating on it." -- some web programmer in denial
 
-Okay, I think this pretty much sums it up:
-
-![two javascript books](https://qph.is.quoracdn.net/main-qimg-eb6eb210fd4116ef10fee083428ed482?convert_to_webp=true)
-
 I think it's pretty much universally agreed upon that JavaScript's bad parts far outweigh the good parts.
 
 I've most recently struggled with asynchronous callbacks within nested loops:

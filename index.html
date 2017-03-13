@@ -1,27 +1,16 @@
 ---
 layout: default
 ---
-
-<div class="home" id="all-content">
-
-  <!-- <h1 class="page-heading">Welcome to My Homepage</h1> -->
+<div>
   <ul>
-  <!-- products list -->
-    <a href="/assignment1/resume.html"><div class="comp20">
-    <h2>Click here for my resume</h2>
-    </div></a>
     {% for product in site.products %}
-      <div class="product-wrapper" style="background-image: url({{ product.background }});">
-        <li>
-          <img class="faq-img" src="{{ site.baseurl }}/assets/img/{{ product.slug }}.png">
-          <div class="post-title">
-            <a id="{{ product.title }}" href="{{ product.url | prepend: site.baseurl }}">
-              <h1 style="color: #{{ product.color }};">{{ product.title }}</h1>
-              <h4 class="product-desc">{{ product.desc }}</h4>
+    <li>
+      <div>
+        <a id="{{ product.title }}" href="{{ product.url | prepend: site.baseurl }}">
+              {{ product.title }}{{ product.desc }}
             </a>
-          </div>
-        </li>
       </div>
+    </li>
     {% endfor %}
   </ul>
 </div>

@@ -118,51 +118,6 @@ img {
   max-width: 100%;
 }
 
-.footer-links > li {
-  display: block;
-  float: right;
-  height: 120px;
-  margin-left: 6px;
-  width: auto;
-
-  > a {
-    color: $white;
-
-    &:link {
-      color: $white;
-      text-decoration: none;
-    }
-
-    &:hover {
-      color: $base-color;
-    }
-  }
-}
-
-.beta-dark-background {
-  background-image: url('{{ site.baseurl }}/assets/img/beta-dark-background.jpg');
-}
-
-// .product-select {
-//   background: $dark-dark-gray;
-//   border-radius: 10px;
-//   max-height: 80px;
-//   padding: $spacing-unit;
-
-//   &:hover {
-//     background: $darkest-gray;
-//   }
-// }
-
-.product-wrapper,
-.post-header {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: $spacing-unit;
-  padding-left: 20%;
-}
-
 .faq-img {
   display: inline-block;
   margin: 0 30px 30px 0;
@@ -186,40 +141,6 @@ img {
   margin-right: 10px;
   width: 202px;
 }
-
-[type='text'] {
-  padding-left: 5px;
-
-  &:focus {
-    outline-style: none;
-  }
-}
-
-[type='submit'] {
-  &:active {
-    background-color: $grey-color;
-    outline-style: none;
-  }
-
-  &:focus {
-    outline-style: none;
-  }
-}
-
-
-// p {
-//   background-color: $dark-dark-gray;
-//   display: block;
-//   margin-bottom: 15px;
-//   // max-height: 0;
-//   overflow: hidden;
-//   padding: 20px 10%;
-//   // -moz-transition: max-height .3s, padding .3s;
-//   // -ms-transition: max-height .3s, padding .3s;
-//   // -o-transition: max-height .3s, padding .3s;
-//   // -webkit-transition: max-height .3s, padding .3s;
-//   // transition: max-height .3s, padding .3s;
-// }
 
 .copyright {
   background: none;
