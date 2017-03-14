@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World!
-category: blog 
+category: code 
 date: 2016-01-24
 background: https://scontent.xx.fbcdn.net/hphotos-xpl1/v/t1.0-9/1609718_10202873985992254_1857377868769533412_n.jpg?oh=fe54bc4fdbf4ea5d237a636fdcbd2785&oe=56FCD4B8
 ---

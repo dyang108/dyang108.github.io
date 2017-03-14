@@ -1,10 +1,10 @@
 ---
-title: Projects
-slug: projects
-desc: 3498db
+title: Code
+slug: code
+desc: 34495e
 ---
 
-{% for post in site.categories.projects %}
+{% for post in site.categories.code %}
   <div class="col-md-4 col-sm-6 post">
     <hr>
     <div>

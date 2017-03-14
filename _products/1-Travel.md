@@ -1,9 +1,10 @@
 ---
-title: Blog
-slug: blog
+title: Travel
+slug: travel
+desc: 2ecc71
 ---
 
-{% for post in site.categories.blog %}
+{% for post in site.categories.travel %}
 <div>
 <a class="post-link" href="{{ post.url }}">
 {{ post.title }}

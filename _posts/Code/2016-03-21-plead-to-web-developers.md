@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make things easier for computers who want to see your site
-category: blog
+category: code
 date: 2016-03-21
 ---
 

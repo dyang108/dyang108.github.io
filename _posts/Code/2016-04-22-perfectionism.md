@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linting and perfectionism
-category: blog 
+category: code 
 date: 2016-04-22
 background: 
 ---
@@ -14,7 +14,7 @@ There's a few things that culminated in this rant on perfectionism. Maybe it's g
 
 Thanks to [MJ](https://github.com/maxjacobson), I've been using linters with all the code I write. It's a blessing and a curse. It's a fantastic way to catch errors before compilation/deployment/committing. If you use Sublime Text, SublimeLinter is probably the best thing ever. *EXCEPT* when it's not.
 
-Let me explain again. [No one likes JavaScript](/blog/2016/03/everyone-hates-javascript). But everyone developing on the web has to use it. Probably one of the worst things about JavaScript is the way it looks. Namely, the chain of closing brackets and braces that you find at the end of a chain of callbacks. Or the shameless heterogeneity of JQuery mixed in with JavaScript. Or the fact that it has to deal with the document object model at all.
+Let me explain again. [No one likes JavaScript](/code/2016/03/everyone-hates-javascript). But everyone developing on the web has to use it. Probably one of the worst things about JavaScript is the way it looks. Namely, the chain of closing brackets and braces that you find at the end of a chain of callbacks. Or the shameless heterogeneity of JQuery mixed in with JavaScript. Or the fact that it has to deal with the document object model at all.
 
 Linting tools work to make code as stylish as possible. In the case of JavaScript, tools like JSHint and Standard help to make your code as pretty as JavaScript can possibly be (which is not that pretty). Essentially, these tools are setting a universal code style standard that everyone should use. **Except they don't.** These tools, designed to make the world a better place by setting *standards* for code style, *don't even agree with each other*. It's like the world of JavaScript developers is locked in a civil war, and no one knows the best way to make JS look pretty (I mean, to be fair, it isn't easy). But can't we all just *agree* on some code style standards??? Even my JS Prettify plugin doesn't agree with the so-called Standard linter. Do we need semicolons or not? Four space indents or two? (I'm fond of four spaces).
 

@@ -1,6 +1,7 @@
 ---
 title: Photos
 slug: photos
+desc: f1c40f
 ---
 
 {% for post in site.categories.photos %}

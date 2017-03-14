@@ -2,15 +2,36 @@
 layout: default
 ---
 <div>
-  <ul>
-    {% for product in site.products %}
-    <li>
-      <div>
-        <a id="{{ product.title }}" href="{{ product.url | prepend: site.baseurl }}">
-              {{ product.title }}{{ product.desc }}
-            </a>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
+  <div class="col-md-4 col-sm-6">
+    <img src="assets/img/propic.png" class="img-fit">
+    <!-- <h2>Derick Yang</h2> -->
+    <hr>
+    Hi! I'm Derick. Tufts University Class of 2018, studying computer science and applied mathematics. Currently abroad in Hong Kong, traveling the world, and eating a lot of good food.
+    <br><br>
+    <div>
+      <a href="https://github.com/dyang108"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/derick-yang-a25502a8"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/dyang108"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://open.spotify.com/user/1266550198"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+      <a href="/assignment1"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+    </div>
+    <hr>
+  </div>
+  <div class="col-md-8 col-sm-6 col-xs-12">
+  <img src="assets/img/hk.png" class="img-fit">
+    <ul class="list-unstyled">
+      {% for product in site.products %}
+      <li>
+        <div class="col-xs-12 col-md-6" style="background-color: #{{ product.desc }}">
+          <h3>
+          <a id="{{ product.title }}" href="{{ product.url | prepend: site.baseurl }}" style="color: white;">
+            {{ product.title }}
+          </a>
+        </h3>
+          <hr>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>

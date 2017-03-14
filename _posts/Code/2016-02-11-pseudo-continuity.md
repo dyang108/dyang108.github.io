@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Real analysis vs CS
-category: blog 
+category: code 
 date: 2016-02-22
 ---
 
