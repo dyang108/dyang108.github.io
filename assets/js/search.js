@@ -22,7 +22,6 @@ jQuery(function () {
     query = query.replace(/\+/g, ' ')
     $('#search_box').val(query)
 
-    console.log(query)
     var results = window.idx.search(query)
     document.title = 'Search - ' + '\"' + query + '\"'
     display_search_results(results, query)

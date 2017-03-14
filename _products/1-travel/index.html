@@ -1,0 +1,20 @@
+---
+title: Travel
+slug: travel
+desc: 2ecc71
+---
+
+{% for post in site.categories.travel %}
+  <div class="col-md-4 col-sm-6 post">
+    <hr>
+    <div>
+      <div class="label label-default">
+        {{ post.date | date: "%B %-d, %Y" }}
+      </div><br>
+      <h3><a href="{{ post.url }}">
+        {{ post.title }}
+      </a></h3>
+    </div>
+    {{ post.content | markdownify }}
+  </div>
+{% endfor %}
