@@ -1,14 +1,18 @@
 ---
 layout: default
 ---
-<article id="all-content" class="post" itemprop="articleBody">
+<article id="all-content" itemprop="articleBody">
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}
     </h1>
-        <a href="{{ site.baseurl }}/{{ page.categories }}">&#60; Return to {{ page.category }}</a>
+    <h4><div class="label label-default">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </div></h4>
   </header>
   <hr>
   <div class="post-wrapper">
     {{ content }}
   </div>
+  <hr>
+  <a href="{{ site.baseurl }}/{{ page.categories }}">&#60; Return to {{ page.category }}</a>
 </article>

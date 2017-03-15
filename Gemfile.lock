@@ -200,7 +200,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-paginate
   scss_lint (~> 0.43.2)
 
 BUNDLED WITH
