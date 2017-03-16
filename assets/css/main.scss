@@ -132,9 +132,52 @@ html, body {
 
 .img-fit {
   max-height: 100%;
-  width: 100%;
+  max-width: 100%;
 }
 
 .social-links {
   font-size: 20px;
+}
+
+.img-lineup {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  &:hover {
+    opacity: .7;
+  }
+}
+
+.img-cont {
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+}
+
+.img-outer-cont {  
+  padding: 2px!important;
+}
+
+.img-caption {
+  position: absolute;
+  bottom: 4px;
+  left: 8px;
+  font-size: 12px;
+  color: white;
+}
+
+.caption-container {
+  background-color: blue;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(10, 10, 10, .95));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(10, 10, 10, .95));
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(10, 10, 10, .95));
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(10, 10, 10, .95));
 }

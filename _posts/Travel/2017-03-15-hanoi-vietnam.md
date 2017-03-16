@@ -2,7 +2,7 @@
 layout: post
 title: pho and viet cong
 category: travel 
-date: 2015-08-22
+date: 2017-03-15
 ---
 
 So I arrived in Vietnam today and was ushered in to the country with a strong flow of tourists through immigration. I was interested in three people in particular, who were talking in English for the length of the flight talking about America and their travels. They talked about the nuances between the rest of the world and their own country. How lucky I am, I thought, to be sharing a plane with these people. They got in line for the visa on arrival, and I went ahead to the immigration line (by the way, the visa on arrival is the better choice).
@@ -13,5 +13,4 @@ I get in the taxi, and it turns out that the airport is pretty far from the city
 
 Crossing the street in many of these countries is an adventure in itself: scooters, bikes, taxis, mopeds are all vying for a spot on the road. Add to that the constant thought of “which direction do I look?” and street crossing suddenly becomes a careful game of injury-dodging.
 
-
-I think one of the most interesting things about Vietnam is the impact of socialism. I visited the Hoa Lo prison today, a “historical relic” that overemphasizes the goodness of the Vietnamese people. The Vietnamese, they say, were brutally oppressed by the French colonialists before 1954. At the same time, American prisoners in the same prison were treated very well. The hyperbole of the signs created a sort of caricature of propaganda that made the claims difficult to believe. After the victory of the Viet Cong in early 1973, Vietnam was faced with the task of rebuilding itself. They needed to do this under the pressure of intense economic sanctions by the US and other capitalist nations. The socialist model needed to compromise if they wanted to grow economically. So in Hanoi, everywhere I turn, theres an eccentric mix of socialism and capitalism. Luxury malls are placed next to fake North Face merchants. Uniform-clad guards with red stars on their hats guard the luxury malls, opening the door for visitors while looking very intimidating. 
+I think one of the most interesting things about Vietnam is the impact of socialism. I visited the Hoa Lo prison today, a “historical relic” that overemphasizes the goodness of the Vietnamese people. The Vietnamese, they say, were brutally oppressed by the French colonialists before 1954. At the same time, American prisoners in the same prison were treated very well. The hyperbole of the signs created a sort of caricature of propaganda that made the claims difficult to believe. After the victory of the Viet Cong in early 1973, Vietnam was faced with the task of rebuilding itself. They needed to do this under the pressure of intense economic sanctions by the US and other capitalist nations. The socialist model needed to compromise if they wanted to grow economically. So in Hanoi, everywhere I turn, theres an eccentric mix of socialism and capitalism. Luxury malls are placed next to fake North Face merchants. Uniform-clad guards with red stars on their hats guard the luxury malls, opening the door for visitors while looking very intimidating.
