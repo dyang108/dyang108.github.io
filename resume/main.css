@@ -77,11 +77,6 @@
   opacity: .7;
 }
 
-.beta-dark-background {
-  background-image: url('beta-dark-background.jpg');
-  background-size: cover;
-}
-
 .top-line {
   border-style: solid;
   border-width: 2px;
