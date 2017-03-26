@@ -1,6 +1,6 @@
 ---
 layout: post
-title: pho and viet cong
+title: A mishmash of thoughts about Vietnam
 category: travel 
 date: 2017-03-15
 ---
