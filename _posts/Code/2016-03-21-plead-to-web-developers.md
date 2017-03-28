@@ -5,8 +5,6 @@ category: code
 date: 2016-03-21
 ---
 
-First of all, I'd like to ask anyone reading this to please take less-recent posts with a grain of salt. I am constantly learning, and as I learn more and more about every sort of programming, I look back and realize some naiveté in my previous posts. I keep them, though, so that I can look back one day and see how much I have learned since then.
-
 In building an [API](/projects/2016/03/tufts-dining-api) to hold Tufts dining menu data, there were certain things that I found more challenging than others. There are the things that you would expect to be difficult (things that I expected to be difficult, anyway), such as pushing my site to Heroku and learning and using MongoDB for the first time. On the other hand, there are other things that I would expect to be easier, including parsing retrieved HTML and formatting it. You know, because HTML data is supposed to be structured, and can basically be turned into JSON on the spot.
 
 Nope. I don't know where Tufts Dining gets its menu template from, but I will say that it is incredibly hard to read, and to parse. Though the menu appeared hierarchical, the HTML represented it as a table, meaning that every heading and menu item seemed to have the same level of significance, at least in the HTML. Most of the styles were embedded into the HTML, a major no-no in the world of web programming. 
