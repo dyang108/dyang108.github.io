@@ -15,5 +15,14 @@ layout: default
     {{ content }}
   </div>
   <hr>
-  <a href="{{ site.baseurl }}/{{ page.categories }}">&#60; Return to {{ page.category }}</a>
+  <a href="{{ site.baseurl }}/{{ page.categories }}">&#60; Return to {{ page.category | capitalize }}</a>
+  <div class="comment-section" id="disqus_thread"></div>
+  <script>
+  (function() {
+  var d = document, s = d.createElement('script');
+  s.src = 'https://dyang108-github-io.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
 </article>
