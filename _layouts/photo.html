@@ -15,9 +15,9 @@ layout: default
     {{ content }}
   </div>
   <hr>
-  <a href="{{ site.baseurl }}/{{ page.categories }}">&#60; Return to {{ page.category | capitalize }}</a>
+  <a href="{{ site.baseurl }}/{{ page.categories }}"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Return to {{ page.category }}</a>
   <div class="comment-section" id="disqus_thread"></div>
-  <script>
+  <script type="text/javascript">
   (function() {
   var d = document, s = d.createElement('script');
   s.src = 'https://dyang108-github-io.disqus.com/embed.js';
