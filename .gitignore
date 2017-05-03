@@ -4,4 +4,5 @@ _site
 *~
 .jekyll-metadata
 math
-_drafts
+drafts
+*Draft.md
