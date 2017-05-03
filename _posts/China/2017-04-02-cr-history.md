@@ -9,7 +9,7 @@ I'm in a class this semester about the Cultural Revolution in China, a tumultuou
 
 Anyhow, people don't usually pay attention in that class. The buzz about the room quite often resembles that of your average Starbucks (I'm sitting in one right now).
 
-So when our professor revealed her true identity to our class, an uncharacteristic silence swept across the room. An underground artist during the third phase of the Cultural Revolution, quietly subverting the power of the Party. She painted after work into dusk, constantly dodging the watchful eye of the Communist Party. She was part of the *wuming* "gang" of artists (which translates to "Anonymous" or "No name"). This group consisted of counterrevolutionaries of all different backgrounds, tired of the persistent waves of supposed "revolution" that Mao was calling for. My professor's name is Wang Aihe.
+So when our professor revealed her true identity to our class, an uncharacteristic silence swept across the room. An underground artist during the third phase of the Cultural Revolution. She painted after work into dusk, constantly dodging the watchful eye of the Communist Party. She was part of the *wuming* "gang" of artists (which translates to "Anonymous" or "No name"). This group consisted of counterrevolutionaries of all different backgrounds, tired of the persistent waves of supposed "revolution" that Mao was calling for. My professor's name is Wang Aihe.
 
 Now she's a professor with two Harvard degrees, teaching a class that inspired many of the students involved in the 2014 Yellow Umbrella movement in Hong Kong. Once a counterrevolutionary, always a counterrevolutionary.
 
