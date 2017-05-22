@@ -5,9 +5,9 @@ category: china
 date: 2017-05-08
 ---
 
-World maps are deceiving. In most of today's maps, Hong Kong and mainland China are painted the same color. A naive observer would look at the map and say, "alright, the mainland and Hong Kong must have a similar culture and feel". But it was obvious from the moment I stepped off the plane into HK that this statement is untrue.
+World maps are deceiving. In most of today's maps, Hong Kong and mainland China are painted the same color. A naive observer would look at the map and say, "alright, the mainland and Hong Kong must have a similar culture and feel". But it was obvious from the moment I stepped off the plane into HK that this is untrue.
 
-There are those social differences, pointed out by Cantonese professors that make overt generalizations about mainlanders versus Hong Kongers in terms of relationships (mainlanders more clingy, Hong Kongers more picky). There's the division between Hong Kong students in the back of the classroom and mainland students in the front of the classroom. Or the knowledge of the Tiananmen incidents being exclusive to Hong Kong students. The swagger with which Hong Kong students walk.
+There are those social differences, pointed out by Cantonese professors that make overt generalizations about mainlanders versus Hong Kongers in terms of relationships (mainlanders more clingy, Hong Kongers more picky). There's the division between Hong Kong students in the back of the classroom and mainland students in the front of the classroom. Or the knowledge of the Tiananmen incident, exclusive to Hong Kong students. Or the swagger with which Hong Kong students walk.
 
 Hong Kong feels more like a New York City than China. Both Hong Kong Island and the Kowloon peninsula give a more Western vibe than the rest of China.
 
