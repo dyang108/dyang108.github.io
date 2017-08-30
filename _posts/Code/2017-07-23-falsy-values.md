@@ -38,3 +38,5 @@ addToElems (elem) {
 Don't do that. The thing is, now you can't add any falsy values to `elems`. In JavaScript, this means the empty string, 0, `false`, and `NaN`, in addition to `null` and `undefined`. If you want the client to add arbitrary elements to the internal data structure, you have to be explicit about what you want to put in.
 
 I've spent probably the equivalent of two work days cleaning up exactly this issue, which I found throughout the library I am building upon.
+
+I should note that this issue exists in dynamically typed languages in general. Most recently, however, I have dealt with it a lot in JavaScript.
