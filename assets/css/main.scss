@@ -13,7 +13,7 @@ $small-font-size:  $base-font-size * .875;
 $large-font-size:  $base-font-size * 1.5;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     40px;
 
 $text-color:       #fff;
 $background-color: #808080;
@@ -24,7 +24,9 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $white:            #fff;
 $black:            #000;
+// $link-color:       #aea0ff;
 $link-color:       #16a085;
+$header-color:       #333;
 $base-color:       #333;
 // $base-color:       #417dc1;
 $dark-gray:        rgba(0, 0, 0, .25);
@@ -55,6 +57,10 @@ ul {
   list-style: none;
 }
 
+p {
+  padding-bottom: 1em;
+}
+
 a {
   color: $link-color;
   text-decoration: none;
@@ -64,7 +70,7 @@ a {
   }
 
   &:hover {
-    color: $base-color;
+    color: $base-color!important;
   }
 
   &:link {
@@ -72,12 +78,16 @@ a {
   }
 }
 
+body {
+  font-size: medium;
+}
+
 html, body {
   height: 100%;
 }
 
 .site-header {
-  background-color: $base-color;
+  background-color: $header-color;
   min-height: 56px;
   position: relative;
   padding-left: 5%;
