@@ -147,6 +147,11 @@ html, body {
 
 .social-links {
   font-size: 20px;
+  a {
+    &:hover {
+      color: $base-color!important;
+    }
+  }
 }
 
 .img-lineup {
