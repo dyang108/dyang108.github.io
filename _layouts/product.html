@@ -2,12 +2,14 @@
 layout: default
 ---
 <header class="post-header">
+    <div class="text-padding">
   <h1 itemprop="name headline"><div style="color: #{{ page.color }};">{{ page.title }}</div>
   </h1>
-</header>
 <div class="return product-desc">
   <a href="{{ site.baseurl }}/"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Return to main</a>
 </div>
+</div>
+</header>
 <div class="post-content" itemprop="articleBody">
   {{ content | markdownify }}
 </div>
