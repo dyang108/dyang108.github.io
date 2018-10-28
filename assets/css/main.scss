@@ -7,7 +7,7 @@
 
 // Our variables
 // $base-font-family: 'Exo' sans-serif;
-$base-font-size:   16px;
+$base-font-size:   20px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * .875;
 $large-font-size:  $base-font-size * 1.5;
@@ -229,4 +229,10 @@ html, body {
   padding: 16px 32px;
 }
 
+@media only screen and (min-width: 768px) {
+  .post-container {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
 
