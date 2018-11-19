@@ -1,6 +1,6 @@
 # Derick Yang Jekyll site
 
-## Check out my site [here](dyang108.github.io)
+## Check out my site [here](http://dyang108.github.io)
 
 ## Getting started
 
