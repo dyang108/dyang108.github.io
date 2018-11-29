@@ -11,7 +11,7 @@ logo: /assets/img/derick-logo.png
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-permalink: /:categories/:year/:month/:title
+permalink: /:categories/:year/:month/:day/:title
 collections:
   products:
     output: true
