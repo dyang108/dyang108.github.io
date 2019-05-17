@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Startup Funding Bubble
+title: Startup Funding
 category: economics 
 date: 2019-05-16
 ---
