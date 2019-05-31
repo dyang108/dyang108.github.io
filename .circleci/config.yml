@@ -20,8 +20,6 @@ jobs:
             bundle install
             gem install jekyll bundler
             bundle exec jekyll build
-            curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-            sudo python get-pip.py
 
       - aws-s3/sync:
           from: ./_site/assets
