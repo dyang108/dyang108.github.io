@@ -12,6 +12,7 @@ jobs:
       - run:
           name: Build site for minimized assets
           command: |
+            bundle install
             gem install jekyll bundler
             bundle exec jekyll build
 
