@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:8.10
+      - image: circleci/ruby:2.4.1-node-browsers
 
     working_directory: ~/repo
 
@@ -11,7 +11,7 @@ jobs:
 
       - run:
           name: Build site for minimized assets
-          command: gem install bundler && bundle exec jekyll build
+          command: bundle exec jekyll build
 
       - deploy:
           name: Copy assets to s3
