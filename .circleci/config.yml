@@ -6,7 +6,9 @@ jobs:
   build:
     docker:
       - image: circleci/ruby:2.4.1
-      - image: circleci/python:2.7
+      - image: circleci/python:3.6.2-stretch-browsers
+        environment:
+          PIPENV_VENV_IN_PROJECT: true
 
     working_directory: ~/repo
 
