@@ -9,6 +9,10 @@ jobs:
     steps:
       - checkout
 
-      - run: bundle exec jekyll build
+      - run:
+          name: Build site for minimized assets
+          command: bundle exec jekyll build
 
-      - deploy: aws s3 sync _site/assets/* s3://dyang108.github.io/
+      - deploy:
+          name: Copy assets to s3
+          command: aws s3 sync _site/assets/* s3://dyang108.github.io/
