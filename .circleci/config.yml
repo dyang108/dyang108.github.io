@@ -1,6 +1,6 @@
 version: 2
 orbs:
-  aws-cli: circleci/aws-cli@0.1.13
+  aws-s3: circleci/aws-s3@1.0.0
 jobs:
   build:
     docker:
@@ -20,5 +20,8 @@ jobs:
             bundle exec jekyll build
 
       - deploy:
-          name: Copy assets to s3
-          command: aws s3 sync _site/assets/* s3://dyang108.github.io/
+          steps:
+            - aws-s3/sync:
+                from: ./_site/assets
+                to: "s3://dyang108.github.io/"
+                overwrite: true
