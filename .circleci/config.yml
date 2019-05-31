@@ -1,4 +1,6 @@
 version: 2
+orbs:
+  aws-cli: circleci/aws-cli@0.1.13
 jobs:
   build:
     docker:
@@ -12,8 +14,8 @@ jobs:
       - run:
           name: Build site for minimized assets
           command: |
-            bundle install
             gem install rainbow -v '2.2.1'
+            bundle install
             gem install jekyll bundler
             bundle exec jekyll build
 
