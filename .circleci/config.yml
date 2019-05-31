@@ -11,7 +11,10 @@ jobs:
 
       - run:
           name: Build site for minimized assets
-          command: bundle exec jekyll build
+          command: |
+            aptitude install libgemplugin-ruby
+            gem install jekyll bundler
+            bundle exec jekyll build
 
       - deploy:
           name: Copy assets to s3
