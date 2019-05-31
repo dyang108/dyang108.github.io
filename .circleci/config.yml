@@ -5,10 +5,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.4.1
-      - image: circleci/python:3.6.2-stretch-browsers
-        environment:
-          PIPENV_VENV_IN_PROJECT: true
+      - image: circleci/python:2.7
 
     working_directory: ~/repo
 
@@ -18,6 +15,17 @@ jobs:
       - run:
           name: Build site for minimized assets
           command: |
+            git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+            echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+            echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+            exec $SHELL
+            git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+            echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
+            exec $SHELL
+
+            rbenv install 2.4.1
+            rbenv global 2.4.1
+            gem install bundler
             gem install rainbow -v '2.2.1'
             bundle install
             gem install jekyll bundler
