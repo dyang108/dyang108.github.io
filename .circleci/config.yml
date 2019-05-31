@@ -5,6 +5,7 @@ orbs:
 jobs:
   build:
     docker:
+      - image: circleci/ruby:2.4.1
       - image: circleci/python:2.7
 
     working_directory: ~/repo
