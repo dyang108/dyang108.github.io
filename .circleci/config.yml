@@ -12,7 +12,6 @@ jobs:
       - run:
           name: Build site for minimized assets
           command: |
-            aptitude install libgemplugin-ruby
             gem install jekyll bundler
             bundle exec jekyll build
 
