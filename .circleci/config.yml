@@ -13,6 +13,7 @@ jobs:
           name: Build site for minimized assets
           command: |
             bundle install
+            gem install rainbow -v '2.2.1'
             gem install jekyll bundler
             bundle exec jekyll build
 
