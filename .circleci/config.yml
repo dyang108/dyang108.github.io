@@ -2,27 +2,25 @@ version: 2
 orbs:
   aws-s3: circleci/aws-s3@1.0.0
 
-workflows:
-  push-assets:
-    jobs:
-      build:
-        docker:
-          - image: circleci/ruby:2.4.1-node-browsers
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.4.1-node-browsers
 
-        working_directory: ~/repo
+    working_directory: ~/repo
 
-        steps:
-          - checkout
+    steps:
+      - checkout
 
-          - run:
-              name: Build site for minimized assets
-              command: |
-                gem install rainbow -v '2.2.1'
-                bundle install
-                gem install jekyll bundler
-                bundle exec jekyll build
+      - run:
+          name: Build site for minimized assets
+          command: |
+            gem install rainbow -v '2.2.1'
+            bundle install
+            gem install jekyll bundler
+            bundle exec jekyll build
 
-          - aws-s3/sync:
-              from: ./_site/assets
-              to: "s3://dyang108.github.io/"
-              overwrite: true
+      - aws-s3/sync:
+          from: ./_site/assets
+          to: "s3://dyang108.github.io/"
+          overwrite: true
