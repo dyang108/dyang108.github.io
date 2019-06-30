@@ -13,6 +13,6 @@ Why did I do this in the first place? For my web programming class, my group is 
 
 You can check out the code on [Github](https://github.com/dyang108/diningdata), or check out the [actual API](https://tuftsdiningdata.herokuapp.com/menus/carm/31/3/2016). Thanks to Serafeim Papastefanos for an awesome [tutorial](http://spapas.github.io/2014/06/30/rest-flask-mongodb-heroku/) on building a REST API on Heroku.
 
-Status: Complete. I want to add scraping for nutrition information and ingredients, but this will prove to be more difficult, because the URL's for these pages are not obvious. We'll see what I can do. In the meantime, I'll be building [DiningDuel](/projects/2016/03/dining-duel).
+Status: Complete. I want to add scraping for nutrition information and ingredients, but this will prove to be more difficult, because the URL's for these pages are not obvious. We'll see what I can do. In the meantime, I'll be building [DiningDuel](http://dyang108.github.io/projects/2016/03/dining-duel).
 
 Update: I have added ingredients information to the API through a brute-force search of all the possible food item pages.

@@ -5,7 +5,7 @@ category: china
 date: 2017-09-19
 ---
 
-I talked previously about [town square matchmaking](/china/2017/03/finding-love). There's another story to tell.
+I talked previously about [town square matchmaking](http://dyang108.github.io/china/2017/03/finding-love). There's another story to tell.
 
 My parents were taking a walk by their Shenzhen apartment when they notice a fair amount of commotion in a square nearby. They decided to go check it out.
 
