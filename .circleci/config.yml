@@ -24,6 +24,7 @@ jobs:
             rbenv install 2.4.1
             rbenv global 2.4.1
             gem update --system
+            bundle update --bundler
             gem install bundler
             gem install rainbow -v '2.2.1'
             bundle install
