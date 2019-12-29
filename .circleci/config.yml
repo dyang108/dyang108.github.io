@@ -15,7 +15,6 @@ jobs:
       - run:
           name: Build site for minimized assets
           command: |
-            gem update --system
             git clone https://github.com/rbenv/rbenv.git ~/.rbenv
             export PATH="$HOME/.rbenv/bin:$PATH"
             eval "$(rbenv init -)"
@@ -24,6 +23,7 @@ jobs:
 
             rbenv install 2.4.1
             rbenv global 2.4.1
+            gem update --system
             gem install bundler
             gem install rainbow -v '2.2.1'
             bundle install
