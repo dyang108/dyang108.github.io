@@ -15,6 +15,7 @@ jobs:
       - run:
           name: Build site for minimized assets
           command: |
+            gem update --system
             git clone https://github.com/rbenv/rbenv.git ~/.rbenv
             export PATH="$HOME/.rbenv/bin:$PATH"
             eval "$(rbenv init -)"
